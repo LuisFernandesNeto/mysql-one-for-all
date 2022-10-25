@@ -59,10 +59,10 @@ CREATE TABLE SpotifyClone.play_history(
 
 INSERT INTO SpotifyClone.plans (plan, plan_price)
 VALUES
-  ('gratuito', '0,00'),
-  ('familiar', '7,99'),
-  ('universitário', '5,99'),
-  ('pessoal', '6,99');
+  ('gratuito', 0.00),
+  ('familiar', 7.99),
+  ('universitário', 5.99),
+  ('pessoal', 6.99);
 
 INSERT INTO SpotifyClone.users (user, age, sign_up_date, plan_id)
 VALUES
@@ -139,7 +139,7 @@ VALUES
   (8, '2022-01-09 01:44:33', 5),
   (5, '2020-08-06 15:23:43', 5),
   (7, '2017-01-24 00:31:17', 6),
-  (1, '2017-10-12 12:35:20', 7),
+  (1, '2017-10-12 12:35:20', 6),
   (4, '2011-12-15 22:30:49', 7),
   (4, '2012-03-17 14:56:41', 8),
   (9, '2022-02-24 21:14:22', 9),
