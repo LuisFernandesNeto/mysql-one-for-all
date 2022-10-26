@@ -117,8 +117,8 @@ VALUES
 INSERT INTO SpotifyClone.songs (song, duration_time_in_seconds, artist_id, album_id)
 VALUES
   ('Break my soul', 279, 1, 1),
-  ('Virgo’s Groove', 369, 1, 1),
-  ('Alien Superstar', 116, 1, 1),
+  ('VIRGO’S GROOVE', 369, 1, 1),
+  ('ALIEN SUPERSTAR', 116, 1, 1),
   ('Don’t Stop Me Now', 203, 2, 2),
   ('Under Pressure', 152, 2, 2),
   ('Como Nossos Pais', 105, 3, 4),
